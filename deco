@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinas Espejadas para Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Cabinas Espejadas para Fotos</h1>
+        <p>El toque perfecto para tus eventos</p>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Nuestras cabinas fotográficas espejadas son la combinación perfecta de estilo, tecnología y diversión para inmortalizar tus mejores momentos. Perfectas para bodas, cumpleaños, eventos corporativos y más.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Alquiler de cabinas espejadas con impresión instantánea</li>
+            <li>Personalización de fotos con tu logo o diseño</li>
+            <li>Accesorios temáticos para fotos divertidas</li>
+            <li>Asistencia técnica durante el evento</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <p>Explora algunos de los momentos únicos que nuestros clientes han capturado con nuestras cabinas.</p>
+        <div class="galeria-imagenes">
+            <img src="imagen1.jpg" alt="Foto de cabina 1">
+            <img src="imagen2.jpg" alt="Foto de cabina 2">
+            <img src="imagen3.jpg" alt="Foto de cabina 3">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cabinas Espejadas para Fotos. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">WhatsApp</a>
+        </p>
+    </footer>
+</body>
+</html>
